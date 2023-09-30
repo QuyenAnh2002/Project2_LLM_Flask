@@ -1,0 +1,39 @@
+body {
+  position: relative;
+
+}
+
+.tong{
+	position: absolute;
+  	top: 300px;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+
+}
+.chu_dangnhap{
+	margin-left: 35px;
+}
+.dang_nhap{
+	height:440px ;
+	width:550px ;
+	padding: 75px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 5px;
+}
+.forgot_login{
+	display: flex;
+}
+
+.form-check-label{
+
+	width: 200px
+}
+#chu_login{
+	padding:0px 33px ;
+	
+	margin-left: 67px;
+}
+#quen_mk{
+	display: block;
+}

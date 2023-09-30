@@ -1,0 +1,56 @@
+.header{
+    height: 50px;
+    width: 100%;
+    background-color: #FFFFCC;
+}
+.header a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.chutrangchu{
+    padding: 15px 15px;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #555555;
+}
+.tong{
+    background-color: #333333;
+}
+
+.tieude{
+    color: white;
+    padding-left:15px;
+    padding-top: 10px;
+}
+.anh img{
+    height: 600px;
+    width: 700px;
+}
+
+.anh{
+    display: flex;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: RoyalBlue;
+  }
+  .benphai{
+    color: white;
+    font-family: Arial;
+    padding-left:20px ;
+    padding-top: 50px;
+  }

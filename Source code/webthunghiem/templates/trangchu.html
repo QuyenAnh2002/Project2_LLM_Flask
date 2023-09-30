@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Danh sách hình ảnh</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/trangchu.css') }}">
+</head>
+<body>
+
+
+    <!-- P1 thanh công cụ trên đầu -->
+    <div class = "header">
+        <ul class="lu_header">
+            <li>
+                <a href="login" style=" font-weight: bold;">ĐĂNG NHẬP</a>
+            </li>
+            <li id ="licuoi">
+                <a href="register" style="font-weight: bold;">ĐĂNG KÝ</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+    
+    {% for image in images %}
+        <div class = "content">
+            <div id="khung_tieude">
+                <h2 id = "tieu_de">Bạn cần đăng nhập để sử dụng dịch vụ</h2>
+            </div>
+            <div class="hang">
+                <div class="don">
+                    <a href="">
+                        <div class ="anh">
+                            <img src="{{ url_for('static', filename='images/003.jpg') }}" alt="{{ image[1] }}">
+                        </div>
+                        <div class="mota">
+                            <p> tớ là dân chơi</p>
+                        </div>
+                    </a>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/001.jpg') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ thích đấm nhau</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/004.png') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/004.png') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/001.jpg') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+            </div>
+
+
+
+            <div class="hang">
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/003.jpg') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ là dân chơi</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/001.jpg') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ thích đấm nhau</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/004.png') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/004.png') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+                <div class="don">
+                    <div class ="anh">
+                        <img src="{{ url_for('static', filename='images/001.jpg') }}" alt="{{ image[1] }}">
+                    </div>
+                    <div class="mota">
+                        <p> tớ đ ngán ai</p>
+                    </div>
+                </div>    
+            </div>
+
+
+        </div>
+    {% endfor %}
+
+
+
+
+
+
+
+
+</body>
+</html>
