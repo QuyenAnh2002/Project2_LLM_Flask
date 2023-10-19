@@ -22,6 +22,7 @@
     width: 8px;
     border-radius: 10px;
     background-color: rgb(233,233,233);
+    background-color: black ;
     box-shadow: inset 0px 0px 5px -2px rgb(160, 160, 160);
 }
 
@@ -32,4 +33,14 @@
 
 .main::-webkit-scrollbar-thumb:hover{
     background: rgb(14,129,243);
+}
+
+.logo{
+    margin-right: 20px;
+}
+.navbar-nav li{
+    /* border-bottom: 2px solid rgb(150, 134, 134);
+    border-right: 2px solid rgb(150, 134, 134); */
+    margin-bottom: 3px;
+    
 }
